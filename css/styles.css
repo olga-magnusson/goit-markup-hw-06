@@ -1,0 +1,81 @@
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-list-item {
+}
+.header-list-link {
+}
+.address {
+}
+.address-list {
+}
+.address-list-item {
+}
+.address-list-item-link {
+}
+.main {
+}
+.main-title {
+}
+.main-button {
+}
+.main-descr {
+}
+.main-descr-list {
+}
+.main-descr-list-item {
+}
+.main-descr-list-item-title {
+}
+.main-descr-list-item-text {
+}
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-list-item-img {
+}
+.team-list-item-name {
+}
+.team-list-item-profession {
+}
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-list-item-img {
+}
+.portfolio-list-item-titel {
+}
+.portfolio-list-item-descr {
+}
+.footer {
+}
+.footer-logo {
+}
+.footer-text {
+}
