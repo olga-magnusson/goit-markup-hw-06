@@ -52,12 +52,13 @@ a {
 .header-list-link:hover,
 .header-list-link:focus,
 .address-list-link:hover,
-.address-list-link:focus,
+.address-list-link:focus {
+  color: #404bbf;
+}
 .main-button:hover,
 .main-button:focus {
   color: #404bbf;
 }
-
 .footer {
   background-color: #2e2f42;
 }
