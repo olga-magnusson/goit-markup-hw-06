@@ -23,6 +23,7 @@ a {
   text-decoration: none;
 }
 .container {
+  display: flex;
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -50,15 +51,14 @@ img {
 }
 .header-navigation {
   align-items: center;
+  display: flex;
 }
 .header-navigation-list {
   display: flex;
   gap: 40px;
   justify-content: flex-start;
 }
-.header-list-item {
-  padding: 24px 0;
-}
+
 .logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -89,6 +89,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .header-navigation-list {
   display: flex;
@@ -177,6 +178,9 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.main-descr {
+  padding: 120px 0;
 }
 .main-descr-list {
   padding-top: 120px;
@@ -284,7 +288,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
-  gap: 24px;
 }
 .portfolio-list-item-text {
   padding: 32px 16px;
