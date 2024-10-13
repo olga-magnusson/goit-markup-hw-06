@@ -28,10 +28,15 @@ a {
   padding-right: 15px;
   margin: 0 auto;
 }
-/*img {
+.sectioт {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+img {
   display: block;
   max-width: 100%;
-}*/
+  height: auto;
+}
 .page-container {
   min-height: 100vh;
   display: flex;
