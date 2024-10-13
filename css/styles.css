@@ -80,7 +80,6 @@ img {
   color: #f4f4fd;
 }
 .footer-logo {
-  display: inline-block;
   margin-bottom: 16px;
 }
 .header-list-link {
@@ -288,6 +287,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
+  column-gap: 24px;
 }
 .portfolio-list-item-text {
   padding: 32px 16px;
@@ -297,7 +297,6 @@ img {
 .portfolio-list-item {
   margin-top: 0;
   margin-bottom: 0;
-  width: calc((100% - 48px) / 3);
 }
 .portfolio-list-item:last-child {
   margin-bottom: 0;
@@ -307,6 +306,7 @@ img {
   max-height: 300px;
   margin-top: 0;
   margin-bottom: 32px;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-list-item-titel {
