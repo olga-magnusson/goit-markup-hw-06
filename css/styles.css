@@ -23,7 +23,6 @@ a {
   text-decoration: none;
 }
 .container {
-  display: flex;
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -43,9 +42,10 @@ img {
   display: flex;
   flex-direction: column;
 }
-
-.header {
+.header-container {
   display: flex;
+}
+.header {
   /*justify-content: space-between;*/
   border-bottom: 1px solid #e7e9fc;
 }
