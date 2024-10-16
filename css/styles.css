@@ -11,6 +11,14 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
 /*li {
   display: inline;
 
@@ -44,6 +52,7 @@ img {
 }
 .header-container {
   display: flex;
+  align-items: center;
 }
 .header {
   /*justify-content: space-between;*/
@@ -52,6 +61,7 @@ img {
 .header-navigation {
   align-items: center;
   display: flex;
+  margin-right: auto;
 }
 .header-navigation-list {
   display: flex;
@@ -61,7 +71,6 @@ img {
 
 .logo {
   display: inline-block;
-  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -90,6 +99,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 .header-navigation-list {
   display: flex;
@@ -143,8 +153,10 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-bottom: 48px;
   max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
 }
 .main-button {
   display: block;
@@ -159,6 +171,8 @@ img {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-button:focus,
@@ -183,8 +197,6 @@ img {
   padding: 120px 0;
 }
 .main-descr-list {
-  padding-top: 120px;
-  padding-bottom: 120px;
   display: flex;
   gap: 24px;
 }
@@ -240,7 +252,6 @@ img {
   max-width: 264px;
   max-height: 260px;
   margin-top: 0;
-  margin-bottom: 32px;
 }
 .employee {
   padding-top: 32px;
@@ -266,7 +277,6 @@ img {
   text-align: center;
   color: #434455;
   margin-top: 0;
-  margin-bottom: 32px;
 }
 .portfolio {
   background-color: #ffffff;
@@ -321,5 +331,4 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   margin-top: 0;
-  margin-bottom: 32px;
 }
