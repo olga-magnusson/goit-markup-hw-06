@@ -474,8 +474,95 @@
               </li>
             </ul>
           </div>
+          <div class="footer-subscribe">
+            <p class="form-text">Subscribe</p>
+            <forem class="form" name="subscribe">
+              <label class="footer-form-label">
+                <input
+                  class="footer-input"
+                  type="email"
+                  name="email-address"
+                  placeholder="E-mail"
+                />
+              </label>
+              <button type="submit" class="footer-btn">
+                Subscribe
+                <svg class="icon-send" width="24" height="24">
+                  <use href="../images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </forem>
+          </div>
         </div>
       </footer>
+      <!-- modal windows -->
+      <div class="modal-overlay">
+        <div class="modal">
+          <button type="button" class="modal-close-btn">
+            <svg class="modal-icons" width="8" height="8">
+              <use href="../images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <p class="modal-title">
+            Leave your contacts and we will call you back
+          </p>
+          <form class="modal-form">
+            <div class="modal-field">
+              <label class="modal-label" for="user-name">Name </label>
+              <input
+                class="modal-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+              />
+              <svg class="modal-form-icons" width="18" height="24">
+                <use
+                  href="../goit-markup-hw-05/images/icons.svg#icon-person"
+                ></use>
+              </svg>
+            </div>
+            <div class="modal-field">
+              <label class="modal-label" for="user-phone">Phone </label>
+              <input
+                class="modal-input"
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+              />
+              <svg class="modal-form-icons" width="18" height="24">
+                <use
+                  href="../goit-markup-hw-05/images/icons.svg#icon-phone"
+                ></use>
+              </svg>
+            </div>
+            <div class="modal-field">
+              <label class="modal-label" for="user-email">Email </label>
+              <input
+                class="modal-input"
+                type="email"
+                name="user-email"
+                id="user-email"
+              />
+              <svg class="modal-form-icons" width="18" height="24">
+                <use
+                  href="../goit-markup-hw-05/images/icons.svg#icon-email"
+                ></use>
+              </svg>
+            </div>
+            <div class="modal-field">
+              <label class="modal-label" for="user-comment">Comment </label>
+              <input
+                class="modal-input"
+                type="text"
+                name="user-comment"
+                id="user-comment"
+                placeholder="Text input"
+              />
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>
