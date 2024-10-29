@@ -496,7 +496,7 @@
         </div>
       </footer>
       <!-- modal windows -->
-      <div class="modal-overlay">
+      <div class="modal-overlay is-open">
         <div class="modal">
           <button type="button" class="modal-close-btn">
             <svg class="modal-icons" width="8" height="8">
@@ -558,7 +558,24 @@
                 placeholder="Text input"
               ></textarea>
             </div>
-            <button type="submit">Send</button>
+            <div class="form-agreement">
+              <input
+                type="checkbox"
+                name="agreement"
+                id="agreement"
+                class="form-checkbox visually-hidden"
+                value="true"
+              />
+              <label class="modal-check-text" for="agreement"
+                ><span class="checkbox-style"
+                  ><svg width="10" height="8">
+                    <use href="../images/icons.svg#icon-check"></use>
+                  </svg>
+                </span>
+                I accept the terms and conditions of the Privacy Policy
+              </label>
+            </div>
+            <button type="submit" class="main-button">Send</button>
           </form>
         </div>
       </div>
