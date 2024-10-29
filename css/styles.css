@@ -533,7 +533,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-form-label {
@@ -574,7 +574,7 @@ img {
 
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
 
   background: #4d5ae5;
@@ -585,12 +585,16 @@ img {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+
+  cursor: pointer;
+  border: none;
 }
 
 .icon-send {
   width: 24px;
   height: 24px;
   fill: #fff;
+  margin-left: 16px;
 }
 
 .modal-overlay {
