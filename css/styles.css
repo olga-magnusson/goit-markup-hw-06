@@ -703,7 +703,7 @@ img {
 
 .modal-label {
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 
@@ -740,8 +740,8 @@ img {
 .modal-form-icons {
   position: absolute;
   left: 16px;
-  bottom: 50%;
-  transform: translateY(50%);
+  top: 50%;
+  transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -767,7 +767,7 @@ img {
   padding: 8px 16px;
 
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 
