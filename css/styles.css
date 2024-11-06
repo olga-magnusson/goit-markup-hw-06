@@ -512,7 +512,7 @@ button {
   padding: 96px 16px;
 }
 
-.main-descr .container {
+.main-descr > .container {
   padding: 0;
 }
 
@@ -547,7 +547,7 @@ button {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1157px) {
   .main-descr-list-icons {
     display: none;
   }
@@ -603,6 +603,117 @@ button {
     font-weight: 400;
   }
 }
+
+/*our team section #3*/
+.team {
+  background-color: #f4f4fd;
+  padding: 96px 28px;
+}
+
+.team > .container {
+  padding: 0;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-top: 0;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 72px;
+  flex-wrap: wrap;
+}
+
+.team-list-item {
+  max-width: 264px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+
+.team-list-item-img {
+  max-width: 264px;
+  max-height: 260px;
+  margin-top: 0;
+}
+
+.employee {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.team-list-item-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.team-list-item-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.team-icons {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.team-list-item-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.team-list-icon {
+  fill: #f4f4fd;
+}
+
+@media screen and (min-width: 768px) {
+  .team {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+  .team-list {
+    gap: 24px;
+  }
+
+  .team-list-item {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-list-item {
+    width: calc((100% - 72px) / 4);
+  }
+}
+
 /*footer*/
 
 .footer-logo {
