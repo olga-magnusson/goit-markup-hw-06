@@ -107,7 +107,7 @@ button {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .container {
     max-width: 1128px;
     padding: 0 15px;
@@ -251,7 +251,7 @@ button {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .header-logo {
     margin-right: 76px;
   }
@@ -481,7 +481,7 @@ button {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .main {
     background-image: linear-gradient(
         to bottom,
@@ -489,7 +489,7 @@ button {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office.jpg);
-    max-width: 1440px;
+    max-width: 1158px;
   }
 
   @media (min-resolution: 192dpi) {
@@ -569,7 +569,7 @@ button {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .main-descr {
     padding: 120px 0;
   }
@@ -706,7 +706,7 @@ button {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .team {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -813,7 +813,7 @@ button {
     width: calc((100% - 24px) / 2);
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -1040,7 +1040,7 @@ button {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .footer {
     padding: 100px 0;
   }
