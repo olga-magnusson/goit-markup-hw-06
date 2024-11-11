@@ -178,7 +178,7 @@ button {
     display: flex;
     gap: 40px;
     align-items: center;
-    /*--------------------------justify-content: flex-start;---------------------------*/
+    /*justify-content: flex-start;*/
   }
 
   .header-logo {
@@ -489,7 +489,7 @@ button {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office.jpg);
-    max-width: 1158px;
+    max-width: 1440px;
   }
 
   @media (min-resolution: 192dpi) {
@@ -698,6 +698,7 @@ button {
     padding-right: 108px;
   }
   .team-list {
+    justify-content: center;
     gap: 24px;
   }
 
